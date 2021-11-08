@@ -1,0 +1,112 @@
+body
+{
+	font-family: arial;
+	background-color: #111111;
+	color: white;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+p
+{
+	font-size: 14px;
+}
+
+.logo
+{
+	text-align: center;
+}
+
+#navigation {
+  list-style: none ;
+  text-align: center ;
+  width: 100%;
+}
+
+#navigation li {
+	display: inline ;
+	color: #fff ;
+	background: #00ccff ;
+}
+
+#navigation li a {
+  padding: 10px 20px ;
+  background: #00A2FF;
+  color: #fff ;
+  border: 1px solid #006 ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #009 ;
+  color: yellow;
+}
+
+.core
+{
+	position: relative;
+	text-align: center;
+	top: 40px;
+	width: 600px;
+	margin: 0 auto  ;
+	margin-bottom: 80px;
+}
+
+.core ul
+{
+	text-align: left;
+}
+
+.row
+{
+	display: flex;
+}
+
+.col
+{
+	flex: 1;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.footer
+{
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	left: 0px;
+	width: 100%;
+	background-color: #222222;
+	z-index: 10;
+	
+}
+
+.footer a
+{
+	color: white;
+	text-decoration: underline;
+}
+
+.menu
+{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	margin: 0 auto;
+	background-color: #222222;
+	top: 0;
+	z-index: 10;
+}
